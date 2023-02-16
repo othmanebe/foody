@@ -7,21 +7,20 @@
 body{
     font-family: 'Poppins', sans-serif;
     background: rgba(18, 39, 79, 1);
-    height: 720px;
-    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 h1{
     position: absolute;
-    height: 162px;
-    width: 359px;
-    left: 185px;
-    top: 237px;
+    top: 22px;
+    left: 136px;
     color: rgba(255, 255, 255, 1);
     font-size: 55px;
     font-weight: 700;
     line-height: 83px;
-    letter-spacing: 0em;
     text-align: left;
     text-shadow: 0px 8px 0px #12274F;
 }
@@ -46,12 +45,22 @@ li a{
     color: #fff;
 }
 
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 40px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+}
+
 .logo{
-    position: absolute;
-    height: 56.000003814697266px;
-    width: 145.2987518310547px;
-    left: 58px;
-    top: 40px;
+    width: 145.29px;
+    padding-top: 18px;
 }
 
 .menu-list{
@@ -59,39 +68,29 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
     gap:21px;
-    position: absolute;
-    height: 36px;
-    width: 491px;
-    left: 731px;
-    top: 44px; 
 }
 
 .arrow-img{
-    position: absolute;
-    height: 370.39px;
-    width: 417.9px;
-    left: 45.10px;
-    top: 217.38px;
+    width: 418px;
+}
+
+.left-container, .right-container{
+   position: relative;
 }
 
 .cta-container{
     display: flex;
     align-items: flex-start;
-    padding: 0px;
-    gap:10px;
-    position: absolute;
-    height: 96px;
-    width: 356px;
-    left: 187px;
-    top: 422px;    
+    gap:10px;  
 }
 
 .cta-btn{
+    position: absolute;
+    top: 217px;
+    left: 142px;
     padding: 13px 18px;
     width: 250px;
-    height: 96px;
     background-color: #00FF75;
     box-shadow: 0px 10px 0px #12274F;
     border-radius: 50px;
@@ -103,36 +102,37 @@ li a{
     color: #fff;
 }
 
+.cta-btn::after{
+    position: absolute;
+    left: 259px;
+    bottom: -17px;
+    content: url(images/fastfood.png);
+    cursor: auto;
+}
+
 .fastfood-img{
-    height: 88px;
     width: 88px;
 }
 
-.circle-img{
-    position: absolute;
-    height: 338px;
-    width: 338px;
-    left: 767px;
-    top: 228px;
+.burger-img{
+    width: 379px;
+    height: 371px;
 }
 
-.burger-img{
-    position: absolute;
-    height: 328.22px;
-    width: 341.24px;
-    left: 736px;
-    top: 213px;
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
 }
 
 .social-links{
     display: flex;
-    align-items: flex-start;
-    padding: 0px;
+    justify-content: center;
     gap:78px;
-    position: absolute;
-    height: 50px;
-    width: 434px;
-    left: 423px;
-    top: 648px;
+}
+
+footer .container{
+    padding-top: 82px;
+    padding-bottom: 22px;
 }
 
