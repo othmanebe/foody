@@ -46,15 +46,6 @@ li a{
     color: #fff;
 }
 
-hr{
-    position: absolute;
-    height: 0px;
-    width: 272px;
-    left: 928px;
-    top: 72px;
-    border: 2px solid #fff
-}
-
 .logo{
     position: absolute;
     height: 56.000003814697266px;
@@ -73,49 +64,8 @@ hr{
     position: absolute;
     height: 36px;
     width: 491px;
-    left: 348px;
+    left: 731px;
     top: 44px; 
-}
-
-.search-input{
-    border: none;
-    background-color: transparent;
-    position: absolute;
-    height: 36px;
-    width: 210px;
-    left: 943px;
-    top: 40px;
-    font-size: 24px;
-    color: #fff;
-}
-
-.search-input:focus{
-    outline: none;
-    border: none;
-}
-
-::placeholder{
-    font-family: 'Poppins';
-    color: #fff;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-}
-
-#submit-input{
-    display: none;
-}
-
-.search-label img{
-    background-color: transparent;
-    position: absolute;
-    height: 28px;
-    width: 28px;
-    left: 1161px;
-    top: 42px;
-    cursor: pointer;
 }
 
 .arrow-img{
