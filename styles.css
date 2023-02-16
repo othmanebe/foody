@@ -11,13 +11,56 @@ body{
     width: 1280px;
 }
 
+h1{
+    position: absolute;
+    height: 162px;
+    width: 359px;
+    left: 185px;
+    top: 237px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-shadow: 0px 8px 0px #12274F;
+}
+
+h1 span{
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0em;
+    text-align: left;
+ }
+
+li a{
+    height: 36px;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase; 
+    color: #fff;
+}
+
+hr{
+    position: absolute;
+    height: 0px;
+    width: 272px;
+    left: 928px;
+    top: 72px;
+    border: 2px solid #fff
+}
+
 .logo{
     position: absolute;
     height: 56.000003814697266px;
     width: 145.2987518310547px;
     left: 58px;
     top: 40px;
-    cursor: pointer;
 }
 
 .menu-list{
@@ -34,38 +77,23 @@ body{
     top: 44px; 
 }
 
-.menu-list li{
-    flex: none;
-}
-
-li a{
-    height: 36px;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0em;
-    text-align: left;
-    text-transform: uppercase; 
-    color: #fff;
-}
-
-.search{
+.search-input{
     border: none;
     background-color: transparent;
     position: absolute;
     height: 36px;
-    width: 178px;
+    width: 210px;
     left: 943px;
     top: 40px;
     font-size: 24px;
     color: #fff;
 }
 
-.search:focus{
+.search-input:focus{
     outline: none;
     border: none;
 }
+
 ::placeholder{
     font-family: 'Poppins';
     color: #fff;
@@ -76,10 +104,11 @@ li a{
     text-align: left;
 }
 
-.search-button{
-    border: none;
+#submit-input{
+    display: none;
 }
-.search-button img{
+
+.search-label img{
     background-color: transparent;
     position: absolute;
     height: 28px;
@@ -89,12 +118,71 @@ li a{
     cursor: pointer;
 }
 
-hr{
+.arrow-img{
     position: absolute;
-    height: 0px;
-    width: 272px;
-    left: 928px;
-    top: 72px;
-    border: 2px solid #fff;
-       
+    height: 370.39px;
+    width: 417.9px;
+    left: 45.10px;
+    top: 217.38px;
 }
+
+.cta-container{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap:10px;
+    position: absolute;
+    height: 96px;
+    width: 356px;
+    left: 187px;
+    top: 422px;    
+}
+
+.cta-btn{
+    padding: 13px 18px;
+    width: 250px;
+    height: 96px;
+    background-color: #00FF75;
+    box-shadow: 0px 10px 0px #12274F;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.fastfood-img{
+    height: 88px;
+    width: 88px;
+}
+
+.circle-img{
+    position: absolute;
+    height: 338px;
+    width: 338px;
+    left: 767px;
+    top: 228px;
+}
+
+.burger-img{
+    position: absolute;
+    height: 328.22px;
+    width: 341.24px;
+    left: 736px;
+    top: 213px;
+}
+
+.social-links{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap:78px;
+    position: absolute;
+    height: 50px;
+    width: 434px;
+    left: 423px;
+    top: 648px;
+}
+

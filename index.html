@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <img class="logo" src="images/Logo.png" alt="">
+        <a href="#"><img class="logo" src="images/logo.png" alt=""></a>
         <nav>
             <ul class="menu-list">
                 <li><a href="#">home</a></li>
@@ -22,10 +22,31 @@
             </ul>
         </nav>
         <form action="">
-            <input class="search" type="search" placeholder="Search Food...">
-            <button class="search-button" type="submit"><img src="images/search.svg" alt=""></button>
+            <input class="search-input" type="search" placeholder="Search Food...">
+            <label for="submit-input" class="search-label"><img src="images/search.svg" alt=""></label>
+            <input id="submit-input" type="submit">
             <hr>
         </form>
     </header>
+    <main>
+        <!-- Left Side -->
+        <img class="arrow-img" src="images/arrow.png" alt="">
+        <h1>Satisfy your <span>Appetite!</span> </h1>
+        <div class="cta-container">
+            <button class="cta-btn"> ORDER NOW!</button>
+            <img class="fastfood-img" src="images/Fastfood.png" alt="">
+        </div>
+       <!-- Right Side -->
+       <img class="circle-img" src="images/circle.png" alt="">
+       <img class="burger-img" src="images/burger.png" alt="">
+    </main>
+    <footer>
+        <div class="social-links">
+            <a href="#"><img src="images/facebook.png" alt=""></a>
+            <a href="#"><img src="images/instagram.png" alt=""></a>
+            <a href="#"><img src="images/telegram.png" alt=""></a>
+            <a href="#"><img src="images/whatsapp.png" alt=""></a>
+        </div>
+    </footer>
 </body>
 </html>
