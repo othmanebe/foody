@@ -106,7 +106,7 @@ header .container{
 .cta-btn::after{
     position: absolute;
     left: 259px;
-    bottom: -17px;
+    bottom: -18px;
     content: url(images/fastfood.png);
     cursor: auto;
 }
