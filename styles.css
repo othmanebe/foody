@@ -31,6 +31,7 @@ h1 span{
     line-height: 84px;
     letter-spacing: 0em;
     text-align: left;
+    display: block;
  }
 
 li a{
@@ -77,12 +78,6 @@ header .container{
 
 .left-container, .right-container{
    position: relative;
-}
-
-.cta-container{
-    display: flex;
-    align-items: flex-start;
-    gap:10px;  
 }
 
 .cta-btn{
